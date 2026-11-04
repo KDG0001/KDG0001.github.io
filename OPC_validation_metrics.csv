@@ -1,0 +1,3 @@
+﻿cell,grid_nm,sigma_nm,dose,threshold,PR,IoU_before,IoU_after,mismatch_before_nm2,mismatch_after_nm2,area_reduction_percent
+INV_X1,1.75,4.2,1,0.5,negative,0.9175824175824175,0.9962962962962963,275.625,12.25,95.55555555555556
+NAND2_X4,1.75,4.2,1,0.5,negative,0.9366240097501524,0.9929034248688676,637,70.4375,88.9423076923077

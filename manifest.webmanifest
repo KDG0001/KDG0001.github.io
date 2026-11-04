@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "OPC Lab · Metal1 패턴 보정",
+  "short_name": "OPC Lab",
+  "description": "INV_X1과 NAND2_X4의 노광·현상 및 OPC 보정을 비교하는 패턴 실험실",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#14253c",
+  "categories": ["education", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {"src": "./icons/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

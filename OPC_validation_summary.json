@@ -1,0 +1,471 @@
+[
+  {
+    "cellId": "INV_X1",
+    "config": {
+      "grid": 1.75,
+      "sigma": 4.2,
+      "dose": 1,
+      "threshold": 0.5,
+      "tone": "negative",
+      "padding": 42,
+      "passes": 14
+    },
+    "geometry": {
+      "name": "INV_X1",
+      "kind": "Inverter",
+      "width": 63,
+      "height": 189,
+      "linewidth": 10.5,
+      "rects": [
+        [
+          0,
+          0,
+          63,
+          10.5
+        ],
+        [
+          0,
+          178.5,
+          63,
+          189
+        ],
+        [
+          10.5,
+          10.5,
+          21,
+          73.5
+        ],
+        [
+          10.5,
+          115.5,
+          21,
+          178.5
+        ],
+        [
+          42,
+          63,
+          52.5,
+          126
+        ]
+      ]
+    },
+    "before": {
+      "iou": 0.9175824175824175,
+      "mismatchPixels": 90,
+      "mismatchArea": 275.625,
+      "missingArea": 238.875,
+      "excessArea": 36.75,
+      "targetArea": 3307.5,
+      "printedArea": 3105.375
+    },
+    "after": {
+      "iou": 0.9962962962962963,
+      "mismatchPixels": 4,
+      "mismatchArea": 12.25,
+      "missingArea": 12.25,
+      "excessArea": 0,
+      "targetArea": 3307.5,
+      "printedArea": 3295.25
+    },
+    "history": [
+      {
+        "step": 0,
+        "changes": 0,
+        "iou": 0.9175824175824175,
+        "mismatchPixels": 90,
+        "mismatchArea": 275.625,
+        "missingArea": 238.875,
+        "excessArea": 36.75,
+        "targetArea": 3307.5,
+        "printedArea": 3105.375
+      },
+      {
+        "step": 1,
+        "changes": 32,
+        "iou": 0.945054945054945,
+        "mismatchPixels": 60,
+        "mismatchArea": 183.75,
+        "missingArea": 147,
+        "excessArea": 36.75,
+        "targetArea": 3307.5,
+        "printedArea": 3197.25
+      },
+      {
+        "step": 2,
+        "changes": 64,
+        "iou": 0.9649446494464945,
+        "mismatchPixels": 38,
+        "mismatchArea": 116.375,
+        "missingArea": 104.125,
+        "excessArea": 12.25,
+        "targetArea": 3307.5,
+        "printedArea": 3215.625
+      },
+      {
+        "step": 3,
+        "changes": 96,
+        "iou": 0.9833948339483395,
+        "mismatchPixels": 18,
+        "mismatchArea": 55.125,
+        "missingArea": 42.875,
+        "excessArea": 12.25,
+        "targetArea": 3307.5,
+        "printedArea": 3276.875
+      },
+      {
+        "step": 4,
+        "changes": 128,
+        "iou": 0.9870848708487084,
+        "mismatchPixels": 14,
+        "mismatchArea": 42.875,
+        "missingArea": 30.625,
+        "excessArea": 12.25,
+        "targetArea": 3307.5,
+        "printedArea": 3289.125
+      },
+      {
+        "step": 5,
+        "changes": 150,
+        "iou": 0.9907407407407407,
+        "mismatchPixels": 10,
+        "mismatchArea": 30.625,
+        "missingArea": 30.625,
+        "excessArea": 0,
+        "targetArea": 3307.5,
+        "printedArea": 3276.875
+      },
+      {
+        "step": 6,
+        "changes": 159,
+        "iou": 0.9907407407407407,
+        "mismatchPixels": 10,
+        "mismatchArea": 30.625,
+        "missingArea": 30.625,
+        "excessArea": 0,
+        "targetArea": 3307.5,
+        "printedArea": 3276.875
+      },
+      {
+        "step": 7,
+        "changes": 168,
+        "iou": 0.9962962962962963,
+        "mismatchPixels": 4,
+        "mismatchArea": 12.25,
+        "missingArea": 12.25,
+        "excessArea": 0,
+        "targetArea": 3307.5,
+        "printedArea": 3295.25
+      },
+      {
+        "step": 8,
+        "changes": 171,
+        "iou": 0.9962962962962963,
+        "mismatchPixels": 4,
+        "mismatchArea": 12.25,
+        "missingArea": 12.25,
+        "excessArea": 0,
+        "targetArea": 3307.5,
+        "printedArea": 3295.25
+      },
+      {
+        "step": 9,
+        "changes": 171,
+        "iou": 0.9962962962962963,
+        "mismatchPixels": 4,
+        "mismatchArea": 12.25,
+        "missingArea": 12.25,
+        "excessArea": 0,
+        "targetArea": 3307.5,
+        "printedArea": 3295.25
+      }
+    ],
+    "changes": 171,
+    "reductionPercent": 95.55555555555556
+  },
+  {
+    "cellId": "NAND2_X4",
+    "config": {
+      "grid": 1.75,
+      "sigma": 4.2,
+      "dose": 1,
+      "threshold": 0.5,
+      "tone": "negative",
+      "padding": 42,
+      "passes": 14
+    },
+    "geometry": {
+      "name": "NAND2_X4",
+      "kind": "2-input NAND",
+      "width": 157.5,
+      "height": 189,
+      "linewidth": 10.5,
+      "rects": [
+        [
+          0,
+          0,
+          157.5,
+          10.5
+        ],
+        [
+          0,
+          178.5,
+          157.5,
+          189
+        ],
+        [
+          10.5,
+          10.5,
+          21,
+          42
+        ],
+        [
+          73.5,
+          10.5,
+          84,
+          42
+        ],
+        [
+          136.5,
+          10.5,
+          147,
+          42
+        ],
+        [
+          42,
+          21,
+          52.5,
+          84
+        ],
+        [
+          105,
+          21,
+          115.5,
+          84
+        ],
+        [
+          42,
+          73.5,
+          115.5,
+          84
+        ],
+        [
+          73.5,
+          84,
+          84,
+          168
+        ],
+        [
+          10.5,
+          105,
+          21,
+          178.5
+        ],
+        [
+          42,
+          105,
+          52.5,
+          168
+        ],
+        [
+          105,
+          105,
+          115.5,
+          168
+        ],
+        [
+          136.5,
+          105,
+          147,
+          178.5
+        ]
+      ]
+    },
+    "before": {
+      "iou": 0.9366240097501524,
+      "mismatchPixels": 208,
+      "mismatchArea": 637,
+      "missingArea": 508.375,
+      "excessArea": 128.625,
+      "targetArea": 9922.5,
+      "printedArea": 9542.75
+    },
+    "after": {
+      "iou": 0.9929034248688676,
+      "mismatchPixels": 23,
+      "mismatchArea": 70.4375,
+      "missingArea": 67.375,
+      "excessArea": 3.0625,
+      "targetArea": 9922.5,
+      "printedArea": 9858.1875
+    },
+    "history": [
+      {
+        "step": 0,
+        "changes": 0,
+        "iou": 0.9366240097501524,
+        "mismatchPixels": 208,
+        "mismatchArea": 637,
+        "missingArea": 508.375,
+        "excessArea": 128.625,
+        "targetArea": 9922.5,
+        "printedArea": 9542.75
+      },
+      {
+        "step": 1,
+        "changes": 32,
+        "iou": 0.9549055453991468,
+        "mismatchPixels": 148,
+        "mismatchArea": 453.25,
+        "missingArea": 324.625,
+        "excessArea": 128.625,
+        "targetArea": 9922.5,
+        "printedArea": 9726.5
+      },
+      {
+        "step": 2,
+        "changes": 64,
+        "iou": 0.9549055453991468,
+        "mismatchPixels": 148,
+        "mismatchArea": 453.25,
+        "missingArea": 324.625,
+        "excessArea": 128.625,
+        "targetArea": 9922.5,
+        "printedArea": 9726.5
+      },
+      {
+        "step": 3,
+        "changes": 96,
+        "iou": 0.9585112873703477,
+        "mismatchPixels": 136,
+        "mismatchArea": 416.5,
+        "missingArea": 300.125,
+        "excessArea": 116.375,
+        "targetArea": 9922.5,
+        "printedArea": 9738.75
+      },
+      {
+        "step": 4,
+        "changes": 128,
+        "iou": 0.9650949173300674,
+        "mismatchPixels": 114,
+        "mismatchArea": 349.125,
+        "missingArea": 269.5,
+        "excessArea": 79.625,
+        "targetArea": 9922.5,
+        "printedArea": 9732.625
+      },
+      {
+        "step": 5,
+        "changes": 160,
+        "iou": 0.9742804654011022,
+        "mismatchPixels": 84,
+        "mismatchArea": 257.25,
+        "missingArea": 177.625,
+        "excessArea": 79.625,
+        "targetArea": 9922.5,
+        "printedArea": 9824.5
+      },
+      {
+        "step": 6,
+        "changes": 192,
+        "iou": 0.9804041641151255,
+        "mismatchPixels": 64,
+        "mismatchArea": 196,
+        "missingArea": 116.375,
+        "excessArea": 79.625,
+        "targetArea": 9922.5,
+        "printedArea": 9885.75
+      },
+      {
+        "step": 7,
+        "changes": 224,
+        "iou": 0.9846342962507683,
+        "mismatchPixels": 50,
+        "mismatchArea": 153.125,
+        "missingArea": 110.25,
+        "excessArea": 42.875,
+        "targetArea": 9922.5,
+        "printedArea": 9855.125
+      },
+      {
+        "step": 8,
+        "changes": 256,
+        "iou": 0.986469864698647,
+        "mismatchPixels": 44,
+        "mismatchArea": 134.75,
+        "missingArea": 98,
+        "excessArea": 36.75,
+        "targetArea": 9922.5,
+        "printedArea": 9861.25
+      },
+      {
+        "step": 9,
+        "changes": 288,
+        "iou": 0.9876847290640394,
+        "mismatchPixels": 40,
+        "mismatchArea": 122.5,
+        "missingArea": 98,
+        "excessArea": 24.5,
+        "targetArea": 9922.5,
+        "printedArea": 9849
+      },
+      {
+        "step": 10,
+        "changes": 320,
+        "iou": 0.9892141756548536,
+        "mismatchPixels": 35,
+        "mismatchArea": 107.1875,
+        "missingArea": 91.875,
+        "excessArea": 15.3125,
+        "targetArea": 9922.5,
+        "printedArea": 9845.9375
+      },
+      {
+        "step": 11,
+        "changes": 347,
+        "iou": 0.9898305084745763,
+        "mismatchPixels": 33,
+        "mismatchArea": 101.0625,
+        "missingArea": 85.75,
+        "excessArea": 15.3125,
+        "targetArea": 9922.5,
+        "printedArea": 9852.0625
+      },
+      {
+        "step": 12,
+        "changes": 365,
+        "iou": 0.9916692378895403,
+        "mismatchPixels": 27,
+        "mismatchArea": 82.6875,
+        "missingArea": 79.625,
+        "excessArea": 3.0625,
+        "targetArea": 9922.5,
+        "printedArea": 9845.9375
+      },
+      {
+        "step": 13,
+        "changes": 380,
+        "iou": 0.992291088498304,
+        "mismatchPixels": 25,
+        "mismatchArea": 76.5625,
+        "missingArea": 67.375,
+        "excessArea": 9.1875,
+        "targetArea": 9922.5,
+        "printedArea": 9864.3125
+      },
+      {
+        "step": 14,
+        "changes": 388,
+        "iou": 0.9929034248688676,
+        "mismatchPixels": 23,
+        "mismatchArea": 70.4375,
+        "missingArea": 67.375,
+        "excessArea": 3.0625,
+        "targetArea": 9922.5,
+        "printedArea": 9858.1875
+      }
+    ],
+    "changes": 388,
+    "reductionPercent": 88.9423076923077
+  }
+]

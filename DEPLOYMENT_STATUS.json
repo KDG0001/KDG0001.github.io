@@ -1,0 +1,27 @@
+{
+  "state": "files_ready_not_published",
+  "targetOwner": "KDG0001",
+  "targetRepository": "KDG0001.github.io",
+  "publicWebsiteVerified": false,
+  "localInternalLinksChecked": 74,
+  "missingLocalLinks": 0,
+  "numericalModel": "unchanged from verified OPC Lab 1.1.0",
+  "includesPublishingGuide": true,
+  "browserChecks": {
+    "homeAndSimulatorNavigation": true,
+    "noteSearch": true,
+    "subjectFilter": true,
+    "loginRequired": false,
+    "bothCellAutoCorrection": true,
+    "defaultMismatchNm2": {
+      "INV_X1": [
+        275.625,
+        12.25
+      ],
+      "NAND2_X4": [
+        637,
+        70.4375
+      ]
+    }
+  }
+}
